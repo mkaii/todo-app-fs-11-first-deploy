@@ -34,6 +34,12 @@ public class TodoController {
         return  todoList;
     }
 
+    @GetMapping("test")
+    public String getTest()
+    {
+        return  "Mainak";
+    }
+
 
     //update todo :
 
